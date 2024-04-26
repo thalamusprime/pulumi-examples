@@ -70,3 +70,4 @@ cloud_run = pulumi_gcp.cloudrun.Service(
 
 pulumi.export("cloud_sql_instance_name", cloud_sql_instance.name)
 pulumi.export("cloud_run_url", cloud_run.statuses[0].url)
+
